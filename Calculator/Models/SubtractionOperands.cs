@@ -16,11 +16,5 @@ namespace Calculator.Models
 			Minuend = 0;
 			Subtrahend = 0;
 		}
-
-		public SubtractionOperands(int minuend, int subtrahend)
-		{
-			Minuend = minuend;
-			Subtrahend = subtrahend;
-		}
 	}
 }

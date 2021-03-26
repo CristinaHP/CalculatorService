@@ -16,11 +16,5 @@ namespace Calculator.Models
 			Quotient = 0;
 			Remainder = 0;
 		}
-
-		public DivisionResult(int quotient, int remainder)
-		{
-			Quotient = quotient;
-			Remainder = remainder;
-		}
 	}
 }

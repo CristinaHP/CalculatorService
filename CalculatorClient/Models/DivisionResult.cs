@@ -17,12 +17,6 @@ namespace CalculatorClient.Models
 			Remainder = 0;
 		}
 
-		public DivisionResult(int quotient, int remainder)
-		{
-			Quotient = quotient;
-			Remainder = remainder;
-		}
-
 		public override string ToString()
 		{
 			return $"Quotient: {Quotient}, Remainder: {Remainder}";

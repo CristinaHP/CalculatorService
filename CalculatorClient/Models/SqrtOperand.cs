@@ -14,10 +14,5 @@ namespace CalculatorClient.Models
 		{
 			Number = 0;
 		}
-
-		public SqrtOperand(int number)
-		{
-			Number = number;
-		}
 	}
 }

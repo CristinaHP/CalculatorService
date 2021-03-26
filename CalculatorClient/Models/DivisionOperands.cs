@@ -16,11 +16,5 @@ namespace CalculatorClient.Models
 			Dividend = 0;
 			Divisor = 0;
 		}
-
-		public DivisionOperands(int number1, int number2)
-		{
-			Dividend = number1;
-			Divisor = number2;
-		}
 	}
 }
